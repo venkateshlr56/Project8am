@@ -27,6 +27,14 @@ public class Demo {
 		
 		System.out.println(m);
 		
+		
+		int size = m.size();
+		System.out.println(size);
+		
+		boolean containsKey = m.containsKey(20);
+		System.out.println(containsKey);
+		
+		
 //		int size = m.size();
 //		System.out.println(size);
 //		
