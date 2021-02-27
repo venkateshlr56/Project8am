@@ -25,14 +25,22 @@ public class Demo {
 		m.put(10,null);
 		m.put(null,"selenium");
 		
-		System.out.println(m);
 		
+		m.put(null,"Java");
+		m.put(40,null);
+		m.put(10,null);
+		m.put(null,"selenium");
+		
+		
+		System.out.println(m);
 		
 		int size = m.size();
 		System.out.println(size);
 		
 		boolean containsKey = m.containsKey(20);
 		System.out.println(containsKey);
+		
+
 		
 		
 //		int size = m.size();
